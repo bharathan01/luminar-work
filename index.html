@@ -12,6 +12,37 @@
 </head>
 
 <body>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h3>Get Training Quote for free  </h3>
+            <input type="text" name="name" placeholder="Name" required="" class="model-input">
+            <input type="email" name="email" placeholder="Email" required=""  class="model-input">
+            <input type="tel" name="phone" placeholder="Phone Number" required="" class="model-input">
+                                  <select name="current_status" required=""  class="model-input">
+                  
+                      <option selected="true" disabled="disabled">Select Course interested in</option>
+                                                <option>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</option>
+                                            <option>Python Django - Angular- Full Stack Web Development Expert</option>
+                                            <option>Software Testing Specialist</option>
+                                            <option>MEARN Stack Web Development Expert - Angular &amp; React</option>
+                                            <option>Business Analytics - Power BI &amp; Tableau</option>
+                                            <option>Android Developer Expert Training In Kochi- Flutter</option>
+                                            <option>PYTHON -DATA SCIENCE with ML - AI - &amp; TABLEAU</option>
+                                        </select>
+                              <input type="text" name="city" placeholder="City"  class="model-input">
+            <textarea name="message" placeholder="Comments"  class="model-input"></textarea>
+  
+            <input type="hidden" name="web_location" value="https://www.luminartechnolab.com/">
+            <input type="submit" name="submit" placeholder="Submit" class="modal-btn">
+        </div>
+      </div>
+    </div>
+  </div>
   <header class="main-header">
     <div class="container text-white">
       <div class="row">
@@ -20,9 +51,11 @@
           <a href="tel:+91 8086 651 651" class="text-white text-decoration-none fs-6">+91 8086 651 651</a>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 w-70 text-center">
+          <i class="fa-solid fa-phone text-white"></i>
           <a href="tel:+91 8086 651 651" class="text-white text-decoration-none fs-6">+91 8086 651 651</a>
+          <i class="fa-solid fa-envelope text-white ms-2"></i>
           <a href="mailto:contact@luminartechnolab.com"
-            class="text-white text-decoration-none fs-6">contact@luminartechnolab.com</a>
+            class="text-white text-decoration-none fs-6 ">contact@luminartechnolab.com</a>
         </div>
       </div>
     </div>
@@ -37,23 +70,23 @@
       <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link  active  fs-5 fw-semibold" aria-current="page" href="#">Home</a>
+            <a class="nav-link  active  fs-5 fw-semibold text-black" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  fs-5 fw-semibold" href="#">Courses</a>
+            <a class="nav-link  fs-5 fw-semibold text-black" href="#">Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  fs-5 fw-semibold" href="#">Placement</a>
+            <a class="nav-link  fs-5 fw-semibold text-black" href="#">Placement</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link  fs-5 fw-semibold">Gallary</a>
+            <a class="nav-link  fs-5 fw-semibold text-black">Gallary</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link   fs-5 fw-semibold">About Us</a>
+            <a class="nav-link   fs-5 fw-semibold text-black">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link   fs-5 fw-semibold">Contact</a>
+            <a class="nav-link   fs-5 fw-semibold text-black">Contact</a>
           </li>
         </ul>
       </div>
@@ -63,9 +96,9 @@
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="./images/caros1.jpeg" class="d-block w-100 carous-opacity" height="500px" alt="cover image">
-          <div class="heading-first">
-            <h1 class="text-white display-4 fw-semibold">Data Science, ML &amp; AI<br> Big Data - Hadoop &amp; Spark <br> Python Data Science</h1>
+          <img src="./images/caros1.jpeg" class="d-block w-100 carous-opacity" height="600px" alt="cover image">
+          <div class="heading-first txt-animation">
+            <h1 class="text-white display-3 fw-semibold txt-animation">Data Science, ML &amp; AI<br> Big Data - Hadoop &amp; Spark <br> Python Data Science</h1>
             <p class="text-white fs-6 mt-4">We LUMINAR TECHNOLAB offers best software training and placement in <br>emerging technologies like Big Data,
                Hadoop, Spark,Data Scince, Machine<br> Learning, Deep Learning and AI.</p>
                <div class="carouesl-btn">
@@ -77,9 +110,9 @@
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="./images/caros2.jpeg" class="d-block w-100 carous-opacity" height="500px" alt="cover image">
-          <div class="heading-second">
-            <h1 class="text-white display-4 fw-semibold">Kerala's No.1 IT Finishing School<br>100% Placement Assistance</h1>
+          <img src="./images/caros2.jpeg" class="d-block w-100 carous-opacity" height="600px" alt="cover image">
+          <div class="heading-second txt-animation">
+            <h1 class="text-white display-3 fw-semibold txt-animation">Kerala's No.1 IT Finishing School<br>100% Placement Assistance</h1>
               <p class="text-white fs-6 mt-4">We at LUMINAR TECHNOLAB offers best software training and placement in<br> 
                 emerging technologies like BIG DATA,Data Science, Machine Learning,PYTHON,<br> 
                 Software Testing.</p>
@@ -141,9 +174,9 @@
         <h2 class="txt-our display-6 ">OUR COURSES</h2>
 
       
-      <div class="container bg-white movement mt-4">
-        <div class="row">
-          <div class="col-lg-6">
+      <div class="containermt-4">
+        <div class="row card-amination">
+          <div class="col-lg-6 ">
             <img src="./images/crs.jpg" alt="" height="100%" width="100%">
           </div>
           <div class="col-lg-6 p-4">
@@ -175,7 +208,7 @@
     <div class=" container w-75 ">
       <div class="row">
         <div class="col-lg-4 mt-4 ">
-          <div class="card border-0">
+          <div class="card border-0 card-amination">
             <img src="./images/crs-01.jpg" class="card-img-top" alt="coures image" style="border-radius: 0px">
             <div class="card-body cr-h">
               <h5 class="txt-big-data fw-semibold text-purple fs-6">
@@ -190,7 +223,7 @@
           </div>
         </div>
         <div class="col-lg-4 mt-4">
-          <div class="card border-0 ">
+          <div class="card border-0 card-amination ">
             <img src="./images/crs-02.jpg" class="card-img-top" alt="coures image" style="border-radius: 0px">
             <div class="card-body cr-h">
               <h5 class="txt-big-data fw-semibold text-purple fs-6">
@@ -206,7 +239,7 @@
           </div>
         </div>
         <div class="col-lg-4  mt-4">
-          <div class="card border-0">
+          <div class="card border-0 card-amination">
             <img src="./images/crs-03.jpg" class="card-img-top" alt="coures image" style="border-radius: 0px">
             <div class="card-body cr-h">
               <h5 class="txt-big-data fw-semibold text-purple fs-6">
@@ -234,57 +267,299 @@
         <h1 class="text-white display-5 fw-bolder"> Placement</h1>
 
         </div>
-        <div class="col-lg-9 col-md-12 slid-bar-sec">
+          <div class="slid-bar-sec col-lg-9 col-md-12">
+            <div class="slide">
+              <div class="slide-main">
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/Itachi Uchiha.jpg" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Itachi Uchiha
+                  </div>
+                </div>
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/Eren Yeager.jpg" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Eren Yeager
+                  </div>
+                </div>
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/goku-dragon-ball-guru.jpg" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Goku-dragon
+                  </div>
+                </div>
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/Itachi Uchiha.jpg" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Itachi Uchiha
+                  </div>
+                </div>
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/Kakashi Hatake.png" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Kakashi Hatake
+                  </div>
+                </div>
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/Levi Ackerman.jpg" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Levi Ackerman
+                    </div>
+                </div>
+                  
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/Killua Zoldyck.jpg" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Killua Zoldyck
+                  </div>
+                </div>
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/naruto.jpg" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Naruto
+                  </div>
+                </div>
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/goku-dragon-ball-guru.jpg" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Goku-dragon
+                  </div>
+                </div>
+                <div class="slide-img">
+                  <div class="sldr-img">
+                    <img src="./images/Kakashi Hatake.png" alt="">
+                  </div>
+                  <div class="silde-txt">
+                    Kakashi Hatake
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>  
          
           
           
-        </div>
+</div>
       </div>
     </div>
   </div>
   <section class="service">
-    <div class="card service-crd  bg-transparent border-0  mt-md-5" style="width: 18rem;">
-      <i class="fa-solid fa-business-time service-icon"></i>
-      <div class="card-body">
-        <h5 class="card-title display-4 fw-semibold text-white text-center">100+</h5>
-        <p class="card-text  fs-4 text-white text-center">Placement</p>
+    <div class="service-div">
+     <div class="card service-crd  bg-transparent border-0  mt-md-5" style="width: 18rem;">
+       <i class="fa-solid fa-business-time service-icon"></i>
+       <div class="card-body">
+        <div class="value card-title display-4 fw-semibold text-white text-center" akhi="100">0</div>
+         <p class="card-text  fs-4 text-white text-center">Placement</p>
+       </div>
       </div>
-    </div>
-    <div class="card service-crd  bg-transparent border-0  mt-sm-5" style="width: 18rem;">
+     <div class="card service-crd  bg-transparent border-0  mt-sm-5" style="width: 18rem;">
       <i class="fa-solid fa-city service-icon"></i>
 
       <div class="card-body ">
-        <h5 class="card-title display-4 fw-semibold text-white text-center">50+</h5>
+        <div class="value card-title display-4 fw-semibold text-white text-center" akhi="50">0</div>
         <p class="card-text  fs-4 text-white text-center">Companies</p> 
+       </div>
       </div>
-    </div>
-    <div class="card service-crd bg-transparent border-0 mt-sm-5" style="width: 18rem;">
+     <div class="card service-crd bg-transparent border-0 mt-sm-5" style="width: 18rem;">
       <i class="fa-solid fa-code service-icon"></i>
       <div class="card-body">
-        <h2 class="card-title display-4 fw-semibold text-white text-center">30+</h2>
+        <div class="value card-title display-4 fw-semibold text-white text-center" akhi="30">0</div>
         <p class="card-text fs-4 text-white text-center">Technologies</p>
         
-      </div>
-    </div>
+       </div>
+     </div>
+   </div>
 
   </section>
   <section class="dialog">
-    <div class="container ">
-      <div class="row quote-row">
-        <div class="col-lg-6 col-md-6 col-sm-12 qut-col">
-          <!-- <img src="./images/quotes.png" alt="quotes"> -->
-          <!-- <h3>Testimonials</h3> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 qut-colum">
+          <img src="./images/quotes.png" alt="">
+          <h3 class="qut-heading display-6 fw-semibold">Testmonials</h3>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12"></div>
-
+        <div class="col-lg-6 col-md-6 col-sm-12 for-bordr">
+          <div id="carouselExampleInterval" class="carousel slide qut-txt" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <p>I attended this course. I am so happy with the overall training. <br>
+                  the faculty were cordial and 
+                  cooperative and willing to help with smallest issues.
+                   I am offering my gratefulness to the Director of Luminar Technolab Rahul sir for his great support</p>
+                   <div class="profile-main">
+                   <div class="profile-img">
+                    <img src="./images/goku-dragon-ball-guru.jpg" class="profile-pic"alt="">
+                   </div>
+                   <h4 class="text-black">Goku Dragon</h4>
+                  </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <p>I did the course of software testing from Luminar Technolab via online... Best place to learn software testing.Rugma Mam and Sreedevi Mam were my teachers and they were very friendly and well knowledgeable. They did teach us in an excellent way. They also provide recordings of every class..Teena Mam and Rahul Sir were very sincere in guiding me.. They provide interviews even before the completion of the course. 
+                  I got placed in a reputed company with the help of them and I ll be ever thankful to Luminar Technolab..</p>
+                   <div class="profile-main">
+                   <div class="profile-img">
+                    <img src="./images/Kakashi Hatake.png" class="profile-pic"alt="">
+                   </div>
+                   <h4 class="text-black">Kakashi Hatake</h4>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <p>Great place to learn software testing. The trainers are very helpful and very friendly. They also provide good placement support. I attended the online classes. The recording facility is really helpful for revising. After course I got placed in a reputed company as Quality Engineer. 
+                  Thank you luminartechnolab for guide me to achieve the first step into my career.</p>
+                   <div class="profile-main">
+                   <div class="profile-img">
+                    <img src="./images/Levi Ackerman.jpg" class="profile-pic"alt="">
+                   </div>
+                   <h4 class="text-black">Levi Ackerman</h4>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
+    
   </section>
+  <section class="gallary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="gallary-head">
+            <h1 class="gallary-head-1">Gallary</h1>
+          </div>
+          <div class="gallary-content">
+            <p>Luminar Technolab has conducted various Technology sessions and Training workshops across colleges in Kerala. 
+              Few<br> of them are Faculty Development Programme - Big Data Analytics for APJ Abdul Kalam University,  Essence of<br> Data Science - Nehru College Pambady, Kochi Python Meet ups &amp; 
+              Placement drive for various companies. You can have a<br> look at our Gallery for more info.</p>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+          <div class="gallary-img">
+            <div class="gallary-cards"></div>
+            <div class="gallary-cards"></div>
+            <div class="gallary-cards"></div>
+            <div class="gallary-cards"></div>
+            <div class="gallary-cards"></div>
+            <div class="gallary-cards"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+ <section class="whatsapp">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="contact-num">
+          <i class="fa-brands fa-square-whatsapp text-black fs-1 me-4"></i>
+          <h3> If you Have Any Questions Call Us / Whats app On 
+            <strong>
+            <a href="tel:91-8086651651" class="text">91-8086651651"</a>
+          </strong></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <footer>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="footer-img">
+            <img src="./images/footer.png" alt="">
+          </div>
+          <div class="footer-icons">
+            <i class="fa-brands fa-square-facebook footer-icon-stl"></i>
+            <i class="fa-brands fa-instagram  footer-icon-stl"></i>
+            <i class="fa-brands fa-square-twitter  footer-icon-stl"></i>
+            <i class="fa-brands fa-google-plus-g  footer-icon-stl"></i>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-md-4 col-sm-12">
+          <div class="single-footer-widget">
+            <h3 class="display-6 fw-semibold">Training Courses</h3>
+            <ul class="footer-list">
+                <li><a href="course-detail/data-science-training-kochi "class="footer-list-txt">Data Science Training</a></li>
+                <li><a href="course-detail/python-training-kochi" class="footer-list-txt">Python Training</a></li>
+                <li><a href="course-detail/mean-stack-training-kochi"class="footer-list-txt">MEAN Stack Training</a></li>
+                <li><a href="course-detail/data-science-training-kochi"class="footer-list-txt">Artificial Intelligence Training</a></li>
+                <li><a href="course-detail/software-testing-training-kochi"class="footer-list-txt">Software Testing Training</a></li>
+                <li><a href="courses"class="footer-list-txt">Digital Marketing Training</a></li>
+                <li><a href="course-detail/data-analytics-training-kochi"class="footer-list-txt">Power BI Training</a></li>
+                <li><a href="course-detail/data-analytics-training-kochi"class="footer-list-txt">Tableau Training</a></li>
+                <li><a href="courses"class="footer-list-txt">Php Training</a></li>
+                <li><a href="courses"class="footer-list-txt">Asp.net Training</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="col col-lg-4 col-md-4 col-sm-12">
+          <div class="single-footer-widget get-in-touch">
+            <h3 class="display-6 fw-semibold">GET IN TOUCH</h3>
+            <a href="https://web.archive.org/web/20211126071459/tel:+918086651651" class="footer-list-txt">
+              <i class="fa fa-phone me-3"></i>+91 8086 651 651</a><br>
+            <a href="https://web.archive.org/web/20211126071459/tel:+914844058886" class="footer-list-txt">
+              <i class="fa fa-phone me-3"></i>+91 484 405 8886</a><br>
+            <span><i class="fa fa-envelope me-3"></i>
+              <a href="https://web.archive.org/web/20211126071459/mailto:contact@luminartechnolab.com" class="footer-list-txt">contact@luminartechnolab.com</a></span><br>
+            <span><i class="fa fa-globe me-3"></i>
+              <a href="www.luminartechnolab.com" class="footer-list-txt">www.luminartechnolab.com</a></span><br>
+            <span><i class="fa fa-map-marker me-3"></i>
+            16/3262, First floor,<br> Vallamattam Estate Seaport Airport Road,<br>
+                CSEZ P O Kakkanad Ernakulam KL 682037 IN</span>  
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-7 col-12">
+                <span>Copyright © Luminar Technolab 2020 | Developed by <a href="https://web.archive.org/web/20211126071459/http://deepnetsoft.com/" class="deepnetsoft" target="_blank" style="color:black;">Deepnetsoft</a></span>
+            </div>
+            <div class="col-lg-6 col-md-5 col-12">
+                <div class="column-right">
+                    <span><a href="https://web.archive.org/web/20211126071459/https://www.luminartechnolab.com/pages/privacy-policy" style="color:black;">Privacy Policy</a> , <a href="https://web.archive.org/web/20211126071459/https://www.luminartechnolab.com/pages/terms-and-conditions" style="color:black;">Terms &amp; Conditions</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ </footer>
 
-
+ <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+    <script src="./javaSscript/index.js"></script>
 </body>
 
 </html>

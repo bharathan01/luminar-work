@@ -1,0 +1,6 @@
+ <i class="fa-solid fa-code service-icon"></i> 
+ <i class="fa-solid fa-city service-icon"></i> 
+       <i class="fa-solid fa-business-time service-icon"></i>
+<i class="fa-solid fa-city service-icon"></i>
+ <h5 class="card-title display-4 fw-semibold text-white text-center">50+</h5>
+        <p class="card-text  fs-4 text-white text-center">Companies</p> 
